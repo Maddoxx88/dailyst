@@ -10,7 +10,6 @@ const PopularCard = (props: any) => {
   <div className="px-6 py-4">
     {/* <div className="relative before:absolute font-bold font-clash text-lg mb-2 p-1 before:bg-[#f9bda1] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500"><span className="relative">{title}</span></div> */}
     <h2 className="mb-4 relative cursor-pointer leading-2"><a className="font-semibold font-clash text-xl global-underline" href="/">{title}</a></h2>
-    <h2 className="hover:bg-[length:97%_40%] transtion-[background-size] duration-100 ease-out bg-bottom bg-no-repeat bg-gradient-to-r from-[#f9bda1] to-[#f9bda1]">tittttt</h2>
     <p className="relative before:absolute font-clash text-sm mb-2 p-1 before:bg-[#f9bda1] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500"><span className="relative">{summary.substring(0, 120)}. . .</span>
     </p> 
     <a href={link} target="_blank" className="font-clash text-blue-500 mx-2 font-medium">Read more</a>
