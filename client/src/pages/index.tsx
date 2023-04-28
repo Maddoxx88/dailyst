@@ -12,7 +12,7 @@ export default function Home() {
     <div className="flex items-center py-4 mx-6">
         <div className="flex-grow h-px bg-gray-400"></div> 
 
-        <span className="flex-shrink text-4xl text-black px-4 font-bold underline underline-offset-0 decoration-8 decoration-[#f9bda1] tracking-wide font-clash">TODAY NEWS</span>
+        <span className="flex-shrink relative before:absolute bottom-0 left-0 text-4xl text-black px-4 font-bold decoration-[#f9bda1] tracking-wide font-clash">TOP NEWS</span>
 
         <div className="flex-grow h-px bg-gray-400"></div>
     </div>
@@ -24,7 +24,8 @@ export default function Home() {
 <input className="bg-white outline-none tracking-wide text-sm text-black p-2 font-clash focus:bg-[#f5e8d4] " placeholder="SEARCH" type="text" name="search"/>
       </div>
     <div className='flex flex-1 my-2 justify-around'>
-      <h2 className='text-[#ab9d91] font-clash'>ECONOMICS</h2>
+    <div className=" text-[#ab9d91] font-clash relative after:absolute after:bg-[#f9bda1] after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">ECONOMICS</div>
+    <div className=" text-[#ab9d91] font-clash relative after:absolute after:bg-[#f9bda1] after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-left after:scale-x-0 hover:after:origin-bottom-right hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">SPORT</div>
       <h2 className='text-[#ab9d91] font-clash'>SPORT</h2>
       <h2 className='text-[#ab9d91] font-clash'>FINANCE</h2>
       <h2 className='text-[#ab9d91] font-clash'>TECH</h2>

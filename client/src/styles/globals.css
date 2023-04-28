@@ -20,5 +20,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: white;
+  background: #f7f7f7;
+}
+
+.global-underline:hover {
+    background-size: 97% 30%;
+}
+
+.global-underline {
+    transition: background-size .6s ease-out;
+    background: linear-gradient(#f9bda1, #f9bda1) no-repeat left 100%/0 40%;
 }
