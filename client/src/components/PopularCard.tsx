@@ -5,7 +5,7 @@ const PopularCard = (props: any) => {
     let displayDate = `${myDate.toLocaleString('default', { month: 'long' })} ${myDate.getDate()}, ${myDate.getFullYear()}`;
 
   return (
-    <div className="max-w-md bg-white flex flex-1 flex-col justify-around transition duration-500 ease-in-out rounded overflow-hidden shadow-md hover:-translate-y-2">
+    <div className="max-w-md bg-white flex flex-1 flex-col justify-around transition duration-300 ease-in-out rounded overflow-hidden shadow-md hover:-translate-y-2">
   <img className="w-auto" src={media} alt="Sunset in the mountains" />
   <div className="px-6 py-4">
     {/* <div className="relative before:absolute font-bold font-clash text-lg mb-2 p-1 before:bg-[#f9bda1] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500"><span className="relative">{title}</span></div> */}
